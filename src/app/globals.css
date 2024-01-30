@@ -1,10 +1,14 @@
 :root {
+  --color-backdrop: rgba(244, 243, 240, 0.8);
   --color-primary: #ede7de;
   --color-text-primary: #025a4e;
   --color-text-secondary: #4c6763;
+  --color-white50: rgba(255, 255, 255, 0.5);
 
   --font-sans: Calibre, Inter, "San Francisco", "SF Pro Text", -apple-system, system-ui, sans-serif;
-  --font-h1: clamp(3.2rem, 0.5692rem + 8.238vw, 13.75rem);;
+  --font-h1: clamp(3.2rem, 0.5692rem + 8.238vw, 13.75rem);
+
+  --z-index-nav: 1000;
 }
 
 body, html {
